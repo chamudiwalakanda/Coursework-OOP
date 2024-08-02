@@ -16,7 +16,8 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "OOP coursework_5478235e"
+           "projectName": "JavaFx_eb9e9aaf",
+            "vmArgs": "--module-path \"C:/Program Files/Java/JavaFx/javafx-sdk-17.0.11/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
