@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="556.0" prefWidth="681.0" style="-fx-background-color: #3c6382;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MemberController">
+   <children>
+      <Label alignment="CENTER" layoutX="252.0" layoutY="28.0" prefHeight="59.0" prefWidth="181.0" style="-fx-background-color: #b2bec3; -fx-background-radius: 10;" text="Member">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="114.0" prefHeight="40.0" prefWidth="155.0" style="-fx-background-color: white;" text="Member ID">
+         <font>
+            <Font name="Bell MT Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMemberId" layoutX="215.0" layoutY="114.0" prefHeight="40.0" prefWidth="257.0" />
+      <TableView fx:id="tblMemberdetail" layoutX="26.0" layoutY="325.0" prefHeight="203.0" prefWidth="453.0">
+        <columns>
+          <TableColumn prefWidth="111.0" text="Member ID" />
+          <TableColumn prefWidth="202.0" text="Name" />
+          <TableColumn prefWidth="139.0" text="Phone No" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="167.0" prefHeight="40.0" prefWidth="155.0" style="-fx-background-color: white;" text="Name">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="271.0" prefHeight="40.0" prefWidth="155.0" style="-fx-background-color: white;" text="Phone No">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="28.0" layoutY="220.0" prefHeight="40.0" prefWidth="155.0" style="-fx-background-color: white;" text="Email">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtMemberName" layoutX="215.0" layoutY="167.0" prefHeight="40.0" prefWidth="257.0" />
+      <TextField fx:id="txtMemberEmail" layoutX="215.0" layoutY="220.0" prefHeight="40.0" prefWidth="257.0" />
+      <TextField fx:id="txtMemberPhone" layoutX="214.0" layoutY="271.0" prefHeight="40.0" prefWidth="257.0" />
+      <JFXButton alignment="CENTER" layoutX="491.0" layoutY="459.0" onAction="#btnSaveMember" prefHeight="47.0" prefWidth="165.0" style="-fx-background-color: #78e08f;" text="Save Member">
+         <font>
+            <Font name="Bell MT Bold" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="491.0" layoutY="403.0" onAction="#btnSearchMember" prefHeight="47.0" prefWidth="165.0" style="-fx-background-color: #82ccdd;" text="Search">
+         <font>
+            <Font name="Bell MT Bold" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="491.0" layoutY="346.0" onAction="#btnDeleteMember" prefHeight="47.0" prefWidth="165.0" style="-fx-background-color: #e55039;" text="Delete">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
