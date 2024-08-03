@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="601.0" style="-fx-background-color: #40739e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="50.0" prefHeight="54.0" prefWidth="581.0" style="-fx-background-color: white;" text="WELCOME TO LIBRARY MANAGEMENT SYSTEM " textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" underline="true">
+         <font>
+            <Font name="Andalus" size="28.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="262.0" layoutY="228.0" onAction="#txtPassword" prefHeight="42.0" prefWidth="221.0" />
+      <TextField layoutX="262.0" layoutY="155.0" onAction="#txtUserName" prefHeight="42.0" prefWidth="221.0" />
+      <Label alignment="CENTER" layoutX="66.0" layoutY="155.0" prefHeight="42.0" prefWidth="172.0" style="-fx-background-color: #7f8fa6;" text="User Name" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="66.0" layoutY="228.0" prefHeight="42.0" prefWidth="172.0" style="-fx-background-color: #7f8fa6;" text="Password">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
